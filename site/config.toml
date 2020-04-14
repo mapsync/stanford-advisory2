@@ -1,0 +1,17 @@
+baseurl = "/"
+languageCode = "en-us"
+languageLang = "en"
+title = "Stanford Waterworks"
+
+[params]
+    Id = "stanfordwater"
+    Facebook = "https://www.facebook.com/cdpky"
+    BillPay = "https://pay.streampay.streamlinepayments.com/#/9NS6AkFfIT8dLg7uhcUIjYkdC6hVKXHxRnUOyfJ%2525252bsn%2525252fcHji63vN2DQ%2525253d%2525253d/BbhCLaUyDkUdLg7uhcUIjYkdC6hVKXHxRnUOyfJ%2525252bsn%2525252fcHji63vN2DQ%2525253d%2525253d/pay"
+
+[blackfriday]
+    extensions = ["hardLineBreak"]
+
+# RSS, categories and tags disabled for an easy start
+# See configuration options for more details: 
+# https://gohugo.io/getting-started/configuration/#toml-configuration
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]

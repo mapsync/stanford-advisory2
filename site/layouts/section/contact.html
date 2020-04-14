@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+<div class="ph3 bg-off-white">
+	<div class="center mw6 pv3 mb3 mt3">
+
+		<div class="flex-ns flex-wrap mb3">
+	        {{ range .Params.contact_entries }}
+				<div style="flex: 0 0 50%;">
+					<h4 class="f4 b lh-title mb2 mt3 primary" style="text-align:center;">{{ .heading }}</h4>
+					<p>{{ .text | markdownify }}</p>
+				</div>
+			{{ end }}
+		</div>
+
+	</div>
+</div>
+
+{{ end }}

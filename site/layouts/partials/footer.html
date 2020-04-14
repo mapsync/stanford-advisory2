@@ -1,0 +1,28 @@
+<footer class="bg-grey-3 ph3 pv4 white">
+
+	<div class="mw7 center pt3" style="text-align:center;">
+
+		<div class="measure-narrow center mb3">
+
+			<img src="/img/logo.png" alt="logo" class="db w4 center br0">
+
+		</div>
+
+		<ul class="flex-ns mb3 center hide-xs" style="font-size:80%;width:480px">
+			<li style="width:120px;text-align:center;"><a href="/" class="link pa3 no-underline db">Alerts</a></li>
+			<li style="width:120px;text-align:center;"><a href="/map" class="link pa3 no-underline db">Map</a></li>
+			<li style="width:100px;text-align:center;"><a href="/contact" class="link pa3 no-underline db">Contact</a></li>
+			<li style="width:140px;text-align:center;"><a href="{{ $.Site.Params.BillPay }}" class="pa3 no-underline db">Bill Pay <i data-feather="external-link"></i></a></li>
+		</ul>
+	</div>
+
+	<div style="position:relative;bottom:0;right:0;float:right;"><a href="https://{{ $.Site.Params.Id }}.geosync.cloud/admin" title="Settings"><i data-feather="settings"></i></a></div>
+</footer>
+
+{{ partial "svg" . }}
+
+<script src="https://unpkg.com/feather-icons"></script>
+<script>
+	feather.replace()
+</script>
+<script src="/app.js"></script>
