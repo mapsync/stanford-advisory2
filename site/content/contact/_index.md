@@ -1,14 +1,21 @@
 ---
 title: "Contact"
 contact_entries:
-  - heading: Location
+  - heading: Location & Hours
     text: |
-      3250 Blazer Parkway  
-      Lexington, KY 40509
+      842 East Main Street  
+      Stanford, KY 40484  
+      Monday-Friday, 8am-5pm
+      Closed for lunch from 12pm-1pm.
+  - heading: Address
+    text: |
+      P.O. BOX 45  
+      Stanford, KY 40484
   - heading: Phone, Fax & Email
     text: |
-      (859) 264-7500 - Office  
-      (859) 264-7501 - Fax  
-      info@cdpengineers.com
+      (606) 365-4510 - Office  
+      (606) 365-4557 - After Hours
+      (606) 365-1023 - Fax  
+      sww@stanfordwater.com
 ---
 
