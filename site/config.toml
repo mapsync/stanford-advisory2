@@ -5,7 +5,10 @@ title = "Stanford Waterworks"
 
 [params]
     Id = "stanfordwater"
-    Facebook = "https://www.facebook.com/cdpky"
+    Color = "#558ed5"
+    AppTitle = "SWW Advisory"
+    Description = "Alerts and interactive map to serve the customers of Stanford Waterworks"
+    Facebook = ""
     BillPay = "https://pay.streampay.streamlinepayments.com/#/9NS6AkFfIT8dLg7uhcUIjYkdC6hVKXHxRnUOyfJ%2525252bsn%2525252fcHji63vN2DQ%2525253d%2525253d/BbhCLaUyDkUdLg7uhcUIjYkdC6hVKXHxRnUOyfJ%2525252bsn%2525252fcHji63vN2DQ%2525253d%2525253d/pay"
 
 [blackfriday]

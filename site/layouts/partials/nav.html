@@ -16,22 +16,27 @@ justify-content:center;">
 	{{ end }}
 	<ul class="flex b grey-3 hide-xs" style="font-size:80%;">
 		<li style="width:130px;text-align:center;"><a href="/" class="{{ $isActiveHome }} pa3 no-underline db">Alerts</a></li>
+
+		
 		<li style="width:130px;text-align:center;"><a href="/map" class="{{ $isActiveMap }} pa3 no-underline db">Map</a></li>
 		<li style="width:100px;text-align:center;">
-			<img src="/img/icon.png" alt="Icon" class="br0 db mb0" style="width:1.8rem;margin:auto;margin-top:1rem;" />
+			<img src="/img/icon.png" alt="Icon" class="br0 db mb0" style="width:1.6rem;margin:auto;margin-top:1rem;" />
 		</li>
 		<li style="width:120px;text-align:center;"><a href="/contact" class="{{ $isActiveContact }} pa3 no-underline db">Contact</a></li>
-		<li style="width:140px;text-align:center;"><a href="{{ $.Site.Params.BillPay }}" class="pa3 no-underline db">Bill Pay <i data-feather="external-link"></i></a></li>
+
+		<li style="width:140px;text-align:center;"><a href="{{ $.Site.Params.BillPay }}" rel="noopener noreferrer" target="_blank" class="pa3 no-underline db">Bill Pay <i data-feather="external-link"></i></a></li>
 	</ul>
 	<div class="show-xs" style="width:100%;">
 	<ul class="flex b grey-3" style="font-size:70%;width:100%;margin-top:0.8rem;">
 		<li style="width:20%;text-align:center;"><a href="/" class="{{ $isActiveHome }} pa2 no-underline db"><i data-feather="alert-triangle"></i><div>Alerts</div></a></li>
+
 		<li style="width:20%;text-align:center;"><a href="/map" class="{{ $isActiveMap }} pa2 no-underline db"><i data-feather="map"></i><div>Map</div></a></li>
 		<li style="width:20%;text-align:center;">
-			<img src="/img/icon.png" alt="Ico" class="br0 db mb0" style="width:1.8rem;margin:auto;margin-top:1rem;" />
+			<img src="/img/icon.png" alt="Icon" class="br0 db mb0" style="width:2rem;margin:auto;margin-top:0.6rem;" />
 		</li>
 		<li style="width:20%;text-align:center;"><a href="/contact" class="{{ $isActiveContact }} pa2 no-underline db"><i data-feather="phone"></i><div>Contact</div></a></li>
-		<li style="width:20%;text-align:center;"><a href="{{ $.Site.Params.BillPay }}" class="pa2 no-underline db"><i data-feather="dollar-sign"></i><div>Bill Pay</div></a></li>
+
+		<li style="width:20%;text-align:center;"><a href="{{ $.Site.Params.BillPay }}" rel="noopener noreferrer" target="_blank" class="pa2 no-underline db"><i data-feather="dollar-sign"></i><div>Bill Pay</div></a></li>
 	</ul>
 </div>
 </nav>

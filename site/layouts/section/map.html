@@ -6,7 +6,7 @@
     {{ block "header" . }}{{ partial "nav" . }}{{end}}
 
     <link href='https://api.mapbox.com/mapbox-gl-js/v1.9.1/mapbox-gl.css' rel='stylesheet' />
-    <div id='map' style='width:100%;height:calc(100vh - 3.2rem);'></div>
+    <div id='map'></div>
     <script src='https://api.mapbox.com/mapbox-gl-js/v1.9.1/mapbox-gl.js'></script>
     <script>
         window.params = {
@@ -58,8 +58,8 @@
                     'source': 'advisory',
                     'layout': {},
                     'paint': {
-                    'fill-color': '#ff0000',
-                    'fill-opacity': 0.25
+                        'fill-color': 'rgba(255, 0, 0, 0.5)',
+                        'fill-outline-color': '#ff0000'
                     }
                 });
 
