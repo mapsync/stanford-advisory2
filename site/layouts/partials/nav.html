@@ -2,7 +2,7 @@
 justify-content:center;">
 
 	<!-- Logo -->
-	<div style="position:absolute;top:0;font-size:75%;color:#558ed5;">{{ $.Site.Title }}</div>
+	<div class="primary" style="position:absolute;top:0;font-size:75%;">{{ $.Site.Title }}</div>
 	<!-- Primary Nav -->
 	{{ $isActiveHome := "" }}
 	{{ $isActiveMap := "" }}
@@ -16,8 +16,6 @@ justify-content:center;">
 	{{ end }}
 	<ul class="flex b grey-3 hide-xs" style="font-size:80%;">
 		<li style="width:130px;text-align:center;"><a href="/" class="{{ $isActiveHome }} pa3 no-underline db">Alerts</a></li>
-
-		
 		<li style="width:130px;text-align:center;"><a href="/map" class="{{ $isActiveMap }} pa3 no-underline db">Map</a></li>
 		<li style="width:100px;text-align:center;">
 			<img src="/img/icon.png" alt="Icon" class="br0 db mb0" style="width:1.6rem;margin:auto;margin-top:1rem;" />

@@ -1,10 +1,8 @@
-[build.environment]
-  YARN_VERSION = "1.12.1"
-  NPM_VERSION = "6.4.1"
-
 [build]
-  command = "yarn build"
-  publish = "dist"
+publish = "dist"
+command = "hugo -d ../dist -s site -v"
 
-[context.deploy-preview]
-  command = "yarn build:preview"
+[context.production.environment]
+HUGO_VERSION = "0.69.0"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"

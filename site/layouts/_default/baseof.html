@@ -9,9 +9,13 @@
 
     {{ block "footer" . }}{{ partial "footer" . }}{{end}}
 
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+      feather.replace()
+    </script>
+    {{ $app := .Site.Data.webpack.app }}
+    <script src="https://geosync.blob.core.windows.net/{{ $app.js }}"></script>
     {{ $script := .Site.Data.webpack.main }}
-    {{ with $script.js }}
-      <script src="{{ relURL . }}"></script>
-    {{ end }}
+    <script src="https://geosync.blob.core.windows.net/{{ $script.js }}"></script>
   </body>
 </html>
