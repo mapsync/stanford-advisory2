@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="{{ $.Site.Language.Lang }}">
-  {{ partial "head" . }}
+  {{ $data := getJSON "https://geosync.blob.core.windows.net/webpack.json" }}
+  {{ partial "head" (dict "context" . "stylesheet" $data.main.css) }}
   <body class="sans-serif">
 
     {{ block "header" . }}{{ partial "nav" . }}{{end}}
@@ -13,9 +14,9 @@
     <script>
       feather.replace()
     </script>
-    {{ $app := .Site.Data.webpack.app }}
+    {{ $app := $data.app }}
     <script src="https://geosync.blob.core.windows.net/{{ $app.js }}"></script>
-    {{ $script := .Site.Data.webpack.main }}
+    {{ $script := $data.main }}
     <script src="https://geosync.blob.core.windows.net/{{ $script.js }}"></script>
   </body>
 </html>

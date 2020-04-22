@@ -1,7 +1,8 @@
 <!doctype html>
 <html lang="{{ $.Site.Language.Lang }}">
-  {{ partial "head" . }}
-  <body class="sans-serif">
+  {{ $data := getJSON "https://geosync.blob.core.windows.net/webpack.json" }}
+  {{ partial "head" (dict "context" . "stylesheet" $data.main.css) }}
+  <body class="sans-serif map">
 
     {{ block "header" . }}{{ partial "nav" . }}{{end}}
 
@@ -11,8 +12,12 @@
     <script>
         window.params = {
             container: 'map',
-            style: 'mapbox://styles/mapbox/streets-v9'
+            style: 'mapbox://styles/mapbox/streets-v9',
+            center: [-84, 37],
+            zoom: 8
         }
+        window.label = "";
+        window.description = "";
     </script>
     {{ if isset .Params "center" }}
         <script>
@@ -94,9 +99,9 @@
     <script>
     feather.replace()
     </script>
-    {{ $app := .Site.Data.webpack.app }}
+    {{ $app := $data.app }}
     <script src="https://geosync.blob.core.windows.net/{{ $app.js }}"></script>
-    {{ $script := .Site.Data.webpack.main }}
+    {{ $script := $data.main }}
     <script src="https://geosync.blob.core.windows.net/{{ $script.js }}"></script>
   </body>
 </html>
