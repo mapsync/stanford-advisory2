@@ -32,7 +32,7 @@
     {{ end }}
     {{ if isset .Params "label" }}
         <script>
-            window.title = {{ .Params.label }};
+            window.label = {{ .Params.label }};
         </script>
     {{ end }}
     {{ if isset .Params "description" }}
@@ -48,7 +48,7 @@
     <script>
         mapboxgl.accessToken = 'pk.eyJ1IjoidHJvenVsIiwiYSI6IlZLcGZCYmMifQ.kL0ZGdoyd9WCM35WzVPQbg';
         var map = new mapboxgl.Map(window.params);
-        if (window.feature) {
+        if (window.feature && window.label) {
             map.on('load', function() {
                 map.addSource('advisory', {
                     'type': 'geojson',
@@ -70,7 +70,7 @@
 
                 map.on('click', 'advisory', function(e) {
                     var coordinates = e.lngLat;
-                    var description = `<strong>${window.title}</strong><p>${window.description}</p>`;
+                    var description = `<strong>${window.label}</strong><p>${window.description}</p>`;
                     
                     while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
                         coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
