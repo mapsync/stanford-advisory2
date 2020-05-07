@@ -2,7 +2,7 @@ backend:
   name: git-gateway
 
 media_folder: "site/static/img" # Folder where user uploaded files should go
-public_folder: "img"
+public_folder: "/img"
 display_url: https://stanfordwater.geosync.cloud/
 logo_url: https://stanfordwater.geosync.cloud/img/logo.png
 
@@ -13,7 +13,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Intro Blurb", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
