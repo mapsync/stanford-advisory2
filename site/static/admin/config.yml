@@ -27,7 +27,7 @@ collections: # A list of collections the CMS should be able to edit
       preview: false
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Delivery (Up to 7 days from now)", name: "delivery", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss Z"}
+      - {label: "Delivery (Up to 7 days from now)", name: "delivery", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss Z"}
       - {label: "High Priority", name: "priority", widget: "boolean", default: false}
       - {label: "Sound", name: "sound", widget: "boolean", default: false}
       - {label: "Message", name: "message", widget: "text"}
