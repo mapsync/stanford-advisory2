@@ -1,0 +1,9 @@
+{
+    "title": "{{ .Title }}",
+    "delivery": "{{ .Params.delivery }}",
+    "priority": {{ .Params.priority }},
+    "sound": {{ .Params.sound }},
+    "message": "{{ .Params.message }}",
+    "link": "{{ .Params.link }}",
+    "account": "{{ .Params.account }}"
+}
