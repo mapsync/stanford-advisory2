@@ -7,11 +7,11 @@ image: /img/new-graphic.png
 ---
 We have updated our billing software and we now have a new credit card portal. We are new to this portal, so please be patient with us as we navigate the portal ourselves and work out any kinks or glitches. 
 
-We are working to this new portal on our pay online tab on this app, as well as our website (www.stanfordwater.com) as soon as we can. You will be see it change over as soon as the switch has been completed. 
+You can get to our new portal by clicking the pay bill tab in this app, or by visiting our website, www.stanfordwater.com and clicking the pay online button. 
 
 Our new portal will be very beneficial to our customers. When you go to our new link, you will be able to create an account where you can pay your bill, view statements, and see usage and payment history. You can also do a quick pay by looking up your account through your account name or your name without creating an account, although creating an account will much more helpful to you. You will also now be able to set up your credit card for automatic payments through the portal.
 
-Our old portal, Streamline Payments, will end immediately once we have the link attached to this app and our website. We will then be using our new portal exclusively. 
+Our old portal, Streamline Payments, will end immediately. We will then be using our new portal exclusively. 
 
 .
 
