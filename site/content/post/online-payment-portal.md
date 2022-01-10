@@ -1,11 +1,11 @@
 ---
 title: Online Payment Portal
 draft: false
-date: 2021-06-09T20:23:07.940Z
+date: 2022-01-10T14:43:01.310Z
 description: Online Payment Portal
 image: ""
 ---
-Our online payment portal for credit cards is currently down. They are working to get it back up as soon as they can. We hope that it is back up and running by tomorrow morning.
+Our online payment portal for credit cards is currently down. They are working to get it back up as soon as they can. 
 
 We apologize for the inconvenience. 
 
