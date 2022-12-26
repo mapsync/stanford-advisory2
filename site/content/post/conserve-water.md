@@ -7,4 +7,4 @@ image: /img/new-graphic.png
 ---
 We are asking you to please conserve water over the next several days. We have had several structure fires and massive leaks all over the system. Thank you!
 
-Check your cattle waters and other out laying meters.
+Check your cattle waters and other farm meters.
