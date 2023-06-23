@@ -1,9 +1,8 @@
 ---
-title: Boil Water- Dix River
+title: Boil Water- Dix River LIFTED
 draft: false
-date: 2023-06-19T12:53:03.139Z
-description: "All customers in Dix River are on a boil water advisory until
-  further notice. "
+date: 2023-06-23T19:14:01.581Z
+description: "Boil Water Advisory has been LIFTED for Dix River customers. "
 image: ""
 ---
-All customers in Dix River are on a boil water advisory until further notice.
+Boil Water Advisory has been LIFTED for Dix River customers.
