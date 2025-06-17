@@ -1,0 +1,9 @@
+---
+title: BOIL WATER LIFTED
+draft: false
+date: 2025-06-17T19:08:34.353Z
+description: |
+  THE BOIL WATER ADVISORY HAS BEEN LIFTED!
+image: ""
+---
+THE BOIL WATER ADVISORY HAS BEEN LIFTED!
