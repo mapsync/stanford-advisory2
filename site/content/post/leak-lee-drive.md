@@ -1,10 +1,8 @@
 ---
-title: LEAK - LEE DRIVE
+title: LEE DRIVE - BOIL WATER HAS BEEN LIFTED
 draft: false
-date: 2025-08-25T13:45:57.538Z
-description: "Customers on LEE DR will be without water while our crew works on
-  a water leak. A boil water advisory will likely be in place once the water is
-  back on. "
+date: 2025-08-28T20:07:19.564Z
+description: "The boil water advisory for Lee Drive has been lifted! "
 image: ""
 ---
-Customers on LEE DR will be without water while our crew works on a water leak. A boil water advisory will likely be in place once the water is back on. 
+The boil water advisory for Lee Drive has been lifted! 
